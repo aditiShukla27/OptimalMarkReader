@@ -5,10 +5,10 @@ public class OpticalMarkReaderMain {
     public static void main(String[] args) {
         String pathToPdf = fileChooser();
         System.out.println("Loading pdf at " + pathToPdf);
-
+        System.out.println("this");
         /*
         Your code here to...
-        (1).  Load the pdf
+        (1).  Load the pdf ffff
         (2).  Loop over its pages
         (3).  Create a DImage from each page and process its pixels
         (4).  Output 2 csv files
